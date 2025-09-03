@@ -29,3 +29,32 @@ p {
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+body > * {
+  border: 1px solid black;
+}
+
+header > nav{
+  padding: 1rem 2rem;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+}
+
+#content {
+  padding: 1.5rem 5rem;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
