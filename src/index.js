@@ -1,9 +1,9 @@
 // index.js
 
-import "./styles.css"
-import { renderHome } from "./modules/home";
-import { renderMenu } from "./modules/menu";
-import { renderAbout } from "./modules/about";
+import "./styles.css";
+import { renderHome } from "./modules/home/home";
+import { renderMenu } from "./modules/menu/menu";
+import { renderAbout } from "./modules/about/about";
 
 const mainDiv = document.querySelector("#content");
 const navHeader = document.querySelector("header>nav");

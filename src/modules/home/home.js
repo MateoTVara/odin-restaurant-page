@@ -1,6 +1,8 @@
 // home.js
-import cafeImg from "../assets/imgs/cafe.jpg"
-import { renderMenu } from "./menu";
+
+import "./home.css";
+import cafeImg from "../../assets/imgs/cafe.jpg";
+import { renderMenu } from "../menu/menu";
 
 const LOREM = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum unde non harum, adipisci a sapiente dolor dicta ipsam autem, modi nobis itaque iste optio quo fugiat distinctio quae vero. Blanditiis!";
 
