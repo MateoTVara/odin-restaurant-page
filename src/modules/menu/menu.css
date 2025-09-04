@@ -1,0 +1,40 @@
+/* menu.css */
+
+.menu-container { 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.categories-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.menu-categories {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+}
+
+.menu-category {
+  border: 1px solid black;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.menu-category > h2 {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 0.5rem 1rem;
+}
+
+.menu-category > .menu-item {
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+}
